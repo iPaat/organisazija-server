@@ -1,7 +1,7 @@
-// Organisazija Skinchanger //
+// Organisazija Kleidung [temporary] #oldscript //
 
 mp.events.addCommand('lcnkleidung', (player, command) => {
-// set clothes on player
+// LCNKLEIDUNG
  player.setClothes(1, 54, 0, 0);
  player.setClothes(2, 0, 0, 0);
  player.setClothes(3, 1, 0, 0);
@@ -13,7 +13,7 @@ mp.events.addCommand('lcnkleidung', (player, command) => {
 });
 
 mp.events.addCommand('orgkleidung', (player, command) => {
-// set clothes on player
+// ORGANISAZIJA GAMBO KLEIDUNG
  player.setClothes(1, 72, 2, 0);
  player.setClothes(2, 0, 0, 0);
  player.setClothes(3, 1, 0, 0);
@@ -25,7 +25,7 @@ mp.events.addCommand('orgkleidung', (player, command) => {
 });
 
 mp.events.addCommand('yakuzakleidung', (player, command) => {
-// set clothes on player
+// YAKUZA RANDOM KLEIDUNG IN ROT
  player.setClothes(1, 72, 0, 0);
  player.setClothes(2, 0, 0, 0);
  player.setClothes(3, 26, 0, 0);
