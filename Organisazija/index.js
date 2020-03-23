@@ -1,0 +1,2 @@
+require('./clothes');
+require('./help');
